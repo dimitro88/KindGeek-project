@@ -1,0 +1,66 @@
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 3px solid yellow;
+    background-color: darkslategrey!important;
+}
+
+.info-field-wrapper-login{
+    width: 60%;
+}
+
+.MuiFormControl-root-28{
+    width: 100%!important;
+}
+
+.info-field-login {
+    margin: 5%!important;
+    height: 40%!important;
+    width: 100%!important;
+}
+
+.MuiInput-underline-36:after{
+    border-color: yellow!important;
+}
+
+.MuiFormLabel-root-173.MuiFormLabel-focused-174{
+    color: yellow!important;
+    width: 100%!important;
+}
+
+.h2{
+    text-align: center;
+    color: yellow;
+}
+
+.buttons-login{
+    width: 40%;
+    color: yellow!important;
+    border: 1px solid yellow!important;
+}
+
+.buttons-container-login{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.red-textfield-help-text{
+    color: red!important;
+}
+

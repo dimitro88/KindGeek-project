@@ -1,0 +1,74 @@
+.register-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    height: 100vh;
+    width: 100%;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 3px solid yellow;
+    background-color: darkslategrey!important;
+}
+
+.buttons{
+    width: 40%;
+    color: yellow!important;
+    border: 1px solid yellow!important;
+}
+
+.buttons-container-register{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.info-field-in-header{
+    height: 50%;
+    width: 100%;
+}
+
+.info-field-wrapper-register{
+    width: 60%;
+}
+
+.info-field {
+    margin: 2% auto!important;
+    height: 18%!important;
+    width: 100%!important;
+    color: black!important;
+
+
+}
+
+.info-field-wrapper-register .MuiFormControl-root-28{
+    width: 100%!important;
+    margin: 2%!important;
+}
+
+.MuiInput-underline-54:after{
+    border-color: yellow!important;
+}
+
+.MuiFormLabel-root-43.MuiFormLabel-focused-44{
+    color: yellow!important;
+}
+
+.h2{
+    text-align: center;
+    color: yellow;
+}
+
+.MuiFormHelperText-root-116{
+    color: red!important;
+}

@@ -1,0 +1,153 @@
+.items{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 2px solid dodgerblue;
+    background: lightgoldenrodyellow;
+    width: 100%;
+    height: 100%;
+}
+
+.dialog-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-item-status-filed{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.del-button{
+    visibility: hidden!important;
+    width: 25%;
+    margin-left: 5%!important;
+}
+
+.list ul{
+    width: 80%;
+    list-style-type:none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    border: hidden!important;
+}
+
+.list{
+    width: 100%;
+    height: 75%;
+    overflow-y: auto;
+}
+
+.add-button {
+    width: 30%!important;
+    height: 60%!important;
+}
+
+.item a{
+    color: black!important;
+    text-decoration: none!important;
+}
+
+.item a:checked{
+    color: black!important;
+}
+
+.item-green:before{
+    display: block;
+    content: '';
+    background-color: green;
+    border:1px solid black;
+    height: 1.5vh;
+    width: 4%;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.item-red:before{
+    display: block;
+    content: '';
+    background-color: red;
+    border:1px solid black;
+    height: 1.5vh;
+    width: 4%;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.item-yellow:before{
+    display: block;
+    content: '';
+    background-color: yellow;
+    border:1px solid black;
+    height: 1.5vh;
+    width: 3%;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.item-yellow a, .item-red a, .item-green a{
+    color: black!important;
+    text-decoration: none!important;
+}
+
+.item-yellow a:checked, .item-red a:checked, .item-green a:checked{
+    color: black!important;
+}
+
+.item-green, .item-red, .item-yellow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.item-green:hover .del-button{
+    visibility: visible!important;
+}
+
+.item-red:hover .del-button{
+    visibility: visible!important;
+}
+
+.item-yellow:hover .del-button{
+    visibility: visible!important;
+}
+
+.list-item-date{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-item-date p{
+    font-size: 12px;
+}
+
+.task-error{
+    border: 2px solid red!important;
+}
+
+.task-error a{
+    color: black!important;
+    text-decoration: none!important;
+}
+
+.task-error a:checked{
+    color: black!important;
+}
+
+.task-error:hover .del-button{
+    visibility: visible!important;
+}

@@ -1,0 +1,138 @@
+.tasks-main-layout{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    width: 100%;
+    height: 90vh;
+}
+
+.list-container{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.tasks-header-for-logout-button{
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    background: lightcyan;
+    align-items: center;
+}
+
+.checked-tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+    margin-right: 10%;
+}
+
+.text-tasks-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-text{
+    text-decoration: line-through!important;
+}
+
+.log-out{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.filter-in-header{
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.first-filter-input{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-filter-input{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clock-in-header{
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.styles-in-header{
+    width: 5%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pink-background{
+    height: 15%;
+    width: 70%;
+    background: pink;
+    border: 2px solid black;
+}
+
+.yellow-background{
+    height: 15%;
+    width: 70%;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.green-background{
+    height: 15%;
+    width: 70%;
+    background: greenyellow;
+    border: 2px solid black;
+}
+
+.default-background {
+    height: 15%;
+    width: 70%;
+    background: darkgray;
+    border: 2px solid black;
+}
